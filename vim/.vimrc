@@ -29,7 +29,8 @@ set encoding=UTF-8
 
 set nocompatible
 
-set termguicolors
+" To set the custom colorscheme
+"set termguicolors
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -73,8 +74,7 @@ let g:PyFlakeForcePyVersion = 3
 filetype plugin indent on
 
 set background=dark
-colorscheme one
-
+" colorscheme one
 
 " Go syntax highlighting
 let g:go_highlight_fields = 1
@@ -138,7 +138,7 @@ let g:gitgutter_sign_removed_first_line = '^'
 let g:gitgutter_sign_modified_removed = '<'
 let g:gitgutter_override_sign_column_highlight = 1
 highlight SignColumn guibg=bg
-highlight SignColumn ctermbg=bg
+" highlight SignColumn ctermbg=bg
 
 set updatetime=250
 
