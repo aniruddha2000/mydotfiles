@@ -1,0 +1,16 @@
+{
+  "default_registry": "gcr.io/aniruddha-lfx-capg",
+  "provider_repos": ["../../projects/cluster-api-provider-gcp"],
+  "enable_providers": ["gcp", "docker", "kubeadm-bootstrap", "kubeadm-control-plane"],
+  "debug": {
+    "core": {
+      "continue": false,
+      "port": 30000,
+      "profiler_port": 40000,
+      "metrics_port": 40001
+    }
+  },
+  "kustomize_substitutions": {
+      "GCP_B64ENCODED_CREDENTIALS": "$(cat /home/aniruddha/.config/gcloud/application_default_credentials.json | base64 -w0)"
+  }
+}
