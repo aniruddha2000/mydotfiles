@@ -1,0 +1,11 @@
+[user]
+ name = Aniruddha Basak
+ email = codewithaniruddha@gmail.com
+ signingkey =
+[commit]
+ gpgsign = true
+[core]
+ editor = nano
+[alias]
+ cm = commit -s
+ st = status
