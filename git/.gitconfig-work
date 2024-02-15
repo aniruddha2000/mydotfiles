@@ -1,7 +1,7 @@
 [user]
  name = Aniruddha Basak
- email = codewithaniruddha@gmail.com
- signingkey = B8FF14B417ADED31
+ email = aniruddha.basak@syself.com
+ signingkey = CEC34274E08C60C9
 [commit]
  gpgsign = true
 [core]

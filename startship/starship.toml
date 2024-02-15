@@ -14,7 +14,9 @@ symbol = " "
 symbol = " "
 
 [directory]
-read_only = " 󰌾"
+truncation_length = 3
+format = '📁 [$path]($style)[$read_only]($read_only_style) '
+read_only = "🔒"
 
 [docker_context]
 symbol = " "
@@ -139,7 +141,7 @@ symbol = " "
 symbol = "🅢 "
 
 [kubernetes]
-format = '[☸️  $context](dimmed green) '
+format = '[☸️  $context](bold green) '
 disabled = false
 
 [kubernetes.context_aliases]
